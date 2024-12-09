@@ -43,6 +43,14 @@ This is a fully configured starter kit for building modern web applications with
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+## Features to Come
+
+- **Reusable Store**: A shared state management solution that can be reused across components.
+- **Docker File**: Docker setup for containerizing the application for easy deployment and scalability.
+- **Docker Compose**: A configuration file for managing multi-container Docker applications to simplify deployment.
+- **CI/CD Pipeline**: Setup for Continuous Integration and Continuous Deployment to automate testing, building, and deployment processes.
+- **Jest Testing**: Unit and integration tests using Jest to ensure application reliability and functionality.
+
 ## Contributing
 
 Feel free to open an issue or submit a pull request to contribute improvements or features.

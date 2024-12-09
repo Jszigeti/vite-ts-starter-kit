@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "content": "React Router for routing management"
+  },
+  {
+    "id": 2,
+    "content": "Tailwind CSS for utility-first styling"
+  },
+  {
+    "id": 3,
+    "content": "Shadcn UI components for a polished design"
+  },
+  {
+    "id": 4,
+    "content": "Axios for API calls with dynamic error handling"
+  },
+  {
+    "id": 5,
+    "content": "TypeScript for type safety and developer productivity"
+  }
+]

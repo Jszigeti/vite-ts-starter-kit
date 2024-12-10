@@ -9,7 +9,7 @@ export const customHandleError = (
     err,
     errorMessages,
     errorCodeToCheck,
-    "Une erreur serveur est survenue, veuillez réessayer plus tard.",
-    "Une erreur inconnue est survenue."
+    "Your custom server error message here.",
+    "Your custom unknown error message here."
   );
 };

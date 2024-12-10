@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Example pages
-import HomePage from "./pages/homepage/HomePage";
+import HomePage from "./pages/Home";
 
 // Components
-import Header from "./components/Header";
-import WelcomeCard from "./components/WelcomeCard";
+import Header from "./components/layout/Header";
+import WelcomeCard from "./components/layout/WelcomeCard";
 
 const App = () => {
   return (

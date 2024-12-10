@@ -1,5 +1,6 @@
-import { Card } from "./ui/card";
-import { Button } from "./ui/button";
+// Components
+import { Card } from "../ui/card";
+import { Button } from "../ui/button";
 
 const WelcomeCard = () => {
   return (

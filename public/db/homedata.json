@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "content": "Fully integrated build and development setup using Vite with TypeScript"
+  },
+  {
+    "id": 2,
+    "content": "Pre-configured Tailwind CSS for responsive, mobile-first design"
+  },
+  {
+    "id": 3,
+    "content": "Shadcn UI components for building beautiful interfaces"
+  },
+  {
+    "id": 4,
+    "content": "Axios with a custom `useApi` hook for seamless API calls"
+  },
+  {
+    "id": 5,
+    "content": "Dynamic error handling with `handleError` function"
+  },
+  {
+    "id": 6,
+    "content": "React Router for client-side routing and navigation"
+  },
+  {
+    "id": 7,
+    "content": "React Query for efficient server state management and optimized API fetching"
+  },
+  {
+    "id": 8,
+    "content": "Tan Stack store for global state management with hooks"
+  },
+  {
+    "id": 9,
+    "content": "Docker support for building and running the app in a containerized environment"
+  }
+]

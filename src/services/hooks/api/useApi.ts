@@ -9,12 +9,6 @@ export function useApi(): AxiosInstance {
     withCredentials: true, // => Comment this line if you do not want to use authentification httpOnly cookies
   });
 
-  const handleUnauthorizedError = (err: unknown): Promise<never> => {
-    return Promise.reject(
-      customHandleError(err, "Session expirée, veuillez vous reconnecter", 401)
-    );
-  };
-
   // Create response interceptor to refresh token if error is 401
   api.interceptors.response.use(
     (response: AxiosResponse) => response,
@@ -36,11 +30,17 @@ export function useApi(): AxiosInstance {
             return api(originalRequest);
           } catch (refreshError: unknown) {
             // Optional : redirection or logout function
-            return handleUnauthorizedError(refreshError);
+            return Promise.reject(
+              customHandleError(
+                refreshError,
+                "Session expirée, veuillez vous reconnecter",
+                401
+              )
+            );
           }
         }
       }
-      return handleUnauthorizedError(error);
+      return Promise.reject(error);
     }
   );
   // Return axios instance

@@ -30,7 +30,7 @@ The project has been refactored to follow a more modular architecture for better
 
 - **/components**: Contains all UI components, with a focus on reusable and feature-based structures.
 - **/services**: Contains API calls and hooks.
-- **/store**: Global state management with Tan Stack Query and Zustand.
+- **/store**: Global state management with Tan Stack Query.
 - **/assets**: Static files and assets used in the app.
 - **/pages**: Each page of the application, following a clear separation of concerns.
 - **/types**: Centralized types and interfaces for TypeScript type safety.
@@ -96,7 +96,7 @@ Here are links to the documentation for the main libraries used in this project:
 - **[Axios Error Handler](https://www.npmjs.com/package/axios-error-handler-ts)**: A package for custom dynamic error handling in Axios.
 - **[React Router](https://reactrouter.com/)**: A library for managing navigation in a React application.
 - **[React Query](https://tanstack.com/query/latest)**: A tool for server-state management and data fetching.
-- **[TanStack (Zustand & Query)](https://tanstack.com/store/latest)**: Tools for global state management using hooks.
+- **[TanStack (Store)](https://tanstack.com/store/latest)**: Tools for global state management using hooks.
 - **[Docker](https://www.docker.com/)**: A platform for building, deploying, and running applications in containers.
 
 ## Contributing
